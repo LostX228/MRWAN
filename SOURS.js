@@ -571,3 +571,15 @@ function lock() {
     h5gg.clearResults();
     codeStatus = true;
   }
+function aimdrag() { 
+   alert('AIM DRAG DONE ')
+        function searchAndReplace(searchValue, replaceValue, type) {
+        h5gg.clearResults();
+        h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000');
+        var results = h5gg.getResults(h5gg.getResultsCount());
+        for (var i = 0; i < results.length && i < 10; i++) {
+            h5gg.setValue(results[i].address, replaceValue.toString(), type);
+        }
+    }
+    searchAndReplace(3145840, 49, 'I32');
+}
