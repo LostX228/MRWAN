@@ -1,6 +1,6 @@
 * {
     /*默认文字颜色*/
-    color: #000;
+    color: #000000;
     font-size: 12px;
     font-family: Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -65,7 +65,7 @@ button {
     width: 70%;
     height: 40px;
     color: #fff;
-    background-color: #00ffff;
+    background-color: #48ff00;
     display: inline-block;
     cursor: pointer;
     text-align: center;
